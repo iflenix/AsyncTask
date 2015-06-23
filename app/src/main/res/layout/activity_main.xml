@@ -27,4 +27,13 @@
         android:layout_alignBottom="@+id/textView"
         android:layout_toEndOf="@+id/textView" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IntentService"
+        android:id="@+id/button2"
+        android:layout_alignBottom="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:onClick="onButton2Click" />
+
 </RelativeLayout>
